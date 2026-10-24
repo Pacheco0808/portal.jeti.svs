@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JETI Oficial</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">JETI</div>
+
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#jogos">Chaveamentos</a>
+      <a href="#classificacao">Modalidades</a>
+      <a href="#galeria">Fotos</a>
+      <a href="#noticias">Notícias</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <h1>PORTAL JETI IFFAR SVS</h1>
+
+    <p>
+      Tabelas, jogos, classificações, notícias e resultados em um único lugar.
+      Uma plataforma moderna criada para atletas, torcida e comissão técnica.
+    </p>
+
+    <button onclick="scrollToSection()">Ver Próximos Jogos</button>
+  </section>
+
+  <section id="jogos">
+    <h2 class="titulo">Próximos Jogos</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Ainda não temos jogos previstos</h3>
+        <p>... - ...</p>
+        <p>...</p>
+      </div>
+
+      <div class="card">
+        <h3>JETI x Caputos</h3>
+        <p>27/05 - 20:00</p>
+        <p>Complexo Esportivo</p>
+      </div>
+
+      <div class="card">
+        <h3>JETI x Caputos</h3>
+        <p>27/05 - 20:00</p>
+        <p>Complexo Esportivo</p>
+      </div>
+
+      <div class="card">
+        <h3>JETI x Warriors</h3>
+        <p>27/05 - 20:00</p>
+        <p>Complexo Esportivo</p>
+      </div>
+
+      <div class="card">
+        <h3>JETI x Caputos</h3>
+        <p>27/05 - 20:00</p>
+        <p>Complexo Esportivo</p>
+      </div>
+
+      <div class="card">
+        <h3>JETI x Caputos</h3>
+        <p>27/05 - 20:00</p>
+        <p>Complexo Esportivo</p>
+      </div>
+
+    
+
+    </div>
+  </section>
+
+  <section id="classificacao">
+    <h2 class="titulo">Vôlei de Praia</h2>
+
+    <table class="tabela">
+      <thead>
+        <tr>
+          <th>Posição</th>
+          <th>Equipe</th>
+          <th>Vitórias</th>
+          <th>Derrotas</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Graxa Véia</td>
+          <td>4</td>
+          <td>0</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Cuiudos</td>
+          <td>3</td>
+          <td>1</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>Só Caixinha</td>
+          <td>2</td>
+          <td>2</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="futsal">
+    <h2 class="titulo">Futsal</h2>
+
+    <table class="tabela">
+      <thead>
+        <tr>
+          <th>Posição</th>
+          <th>Equipe</th>
+          <th>Vitórias</th>
+          <th>Derrotas</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Macumba Mecânica</td>
+          <td>??</td>
+          <td>??</td>
+        </tr>
+
+        <tr>
+          <td>2</td>
+          <td>Coveiros FC</td>
+          <td>??</td>
+          <td>??</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>Amigos de Cacequi</td>
+          <td>??</td>
+          <td>??</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="galeria">
+  <h2 class="titulo" onclick="toggleGaleria()">
+    Memórias <span id="seta">▼</span>
+  </h2>
+
+  <div class="galeria" id="fotosMemorias">
+    <img src="imagens/msi.jpeg">
+    <img src="imagens/msi1.jpeg">
+    <img src="imagens/msi2.jpeg">
+    <img src="imagens/msi3.jpeg">
+  </div>
+</section>
+
+  <section id="noticias">
+    <h2 class="titulo">Últimas Notícias</h2>
+
+    <div class="noticia">
+      <h3>O portal digital do JETI estará no ar em 2027</h3>
+      <p>
+        O projeto do Portal digital JETI iFFar, conseguirá ser finalizado em 2026 e estará pronto para ser utilizado pelos torcedores, atletas e até para quem não é aluno e quer acompanhar.
+      </p>
+    </div>
+
+    <div class="noticia">
+      <h3>Nova parceria anunciada</h3>
+      <p>
+        O time anunciou um novo patrocinador para a temporada 2026.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="admin">
+      <h2>Envolvidos no projeto!!</h2>
+
+      <p>
+        Murilo Pacheco, Benjamin Zago, Othavio Vieira, Richard Vieira, Inácio Vieira, Arthur Ravalha, João vitor Nascimento. <br>E como orientador o professor Gleizer Bierhalz Voss.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© PPI JETI - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
+```
